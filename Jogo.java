@@ -6,6 +6,7 @@ public class Jogo {
             personagem.cacar();
             personagem.comer();
             personagem.dormir();
+            System.out.printf("e: %d, f: %d, s: %d\n", personagem.energia, personagem.fome, personagem.sono);
             System.out.println("*******************");
             Thread.sleep(8000); 
             
